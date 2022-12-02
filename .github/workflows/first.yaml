@@ -4,7 +4,7 @@ jobs:
     job1: 
         name: First job
         runs-on: ubuntu-latest
-        steps:
+        Steps:
         - name: Step one 
           uses: actions/checkout@v2
         - name: Step two
@@ -12,7 +12,7 @@ jobs:
     job2:
          name: Second job
          runs-on: windows-latest
-        steps:
+        Steps:
         - name: Step one 
           uses: actions/checkout@v2
         - name: Step two
